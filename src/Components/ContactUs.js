@@ -5,7 +5,7 @@ const ContactUs = () => {
       <p className="font-bold text-xl text-orange-500 m-4  p-4">
         Feel free to reach us!
         <br></br>
-        Mail: harshguptaclj@gmaiil.com
+        Mail: harshguptaclj@gmail.com
         <br></br>
         Mobile: 7080127050
         <br></br>
