@@ -1,9 +1,12 @@
 {
+  "homepage": "https://harshguptaclj.github.io/namaste-react",
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "\"Welcome to Namaste React Episode 2\"",
   "scripts": {
     "test": "jest",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
@@ -17,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/harshguptaclj/namaste-react/issues"
   },
-  "homepage": "https://github.com/harshguptaclj/namaste-react#readme",
+  
   "devDependencies": {
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
